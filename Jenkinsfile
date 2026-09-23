@@ -5,7 +5,7 @@ pipleline{
             stage('Checkout')
             {
                 steps{
-                    git branch:'main', url=' '
+                    git branch:'main', url='https://github.com/mahesh-007p/question6.git'
                 }
             }
 
